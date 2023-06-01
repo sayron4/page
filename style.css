@@ -31,7 +31,7 @@ header {
     text-decoration: none;
 }
 
-.menu-item:hover{
+.menu-item:hover {
     color: #000;
     transition: all 0.2s;
 }
@@ -91,10 +91,9 @@ header {
     display: flex;
     gap: 30px;
     color: white;
-    
 }
 
-.social-midia{
+.social-midia {
     display: flex;
     gap: 15px;
 }
@@ -105,39 +104,39 @@ header {
 
 .icons-midia:hover {
     color: #343A40;
-
 }
 
-@media screen and (max-width: 768px){
-    .left-one{
-        width: 100%;
-        padding: 10px;
-        
+
+@media screen and (max-width: 768px) {
+    .part-one {
+        flex-direction: column;
     }
-    
 }
 
-@media screen and (max-width: 768px){
-    .right-one{
-        display: none;
-    }
-
-}
-
-@media screen and (max-width: 768px){
-    .menu{
+@media screen and (max-width: 768px) {
+    .left-one {
         width: 100%;
         padding: 10px;
     }
-
 }
 
-@media screen and (max-width: 1024px){
-    .left-one{
+@media screen and (max-width: 768px) {
+    .menu {
         width: 100%;
         padding: 10px;
-        
     }
-    
 }
 
+@media screen and (max-width: 768px) {
+    .image-right{
+        height: 400px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .left-one {
+        width: 100%;
+        padding: 10px;
+    }
+}

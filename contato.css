@@ -76,3 +76,10 @@ main{
     color: #343A40;
 
 }
+
+@media screen and (max-width: 768px) {
+    .menu {
+        width: 100%;
+        padding: 10px;
+    }
+}
