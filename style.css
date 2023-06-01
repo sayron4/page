@@ -107,3 +107,37 @@ header {
     color: #343A40;
 
 }
+
+@media screen and (max-width: 768px){
+    .left-one{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    
+}
+
+@media screen and (max-width: 768px){
+    .right-one{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .menu{
+        width: 100%;
+        padding: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+    .left-one{
+        width: 100%;
+        padding: 10px;
+        
+    }
+    
+}
+
